@@ -75,12 +75,21 @@ From the EDA some key findings showcased were:
 
 ![Alt text](images/Correlation_Matrix.png)
 
+From the matrix, it could be seen that the attributes that seemed to have high correlation with other attributes were: Rating, Votes, Revenue, and Metascore. These attributes are numerical columns and can be used for possible linear regression analysis. 
 
 #5. MODELING
 
 Provide the Linear Regression Model Data visualization and written analysis:
 
 ![Alt text](images/Model.png)
+
+This linear regression model tests against the Metascore attribute alongside the rest of the numerical columns within this dataset. From the visualized model, it can be seen that there is satisfactory amount of correlation with the actual and predicted values. To further gauge if this was an appropriate regression model, residual analysis was also conducted. 
+
+Residual Analysis:
+
+![Alt text](images/Residuals_Plot.png)
+
+In a linear regression model, characteristics such as 
 
 #7. FURTHER RESEARCH
 
