@@ -73,9 +73,7 @@ From the EDA some key findings showcased were:
 
 ## Correlation Matrix:
 
-![Alt text](/Users/nasehacho/Desktop/TKH_DS/LetsGoToTheMovies2/images/Correlation Matrix.png)
-
-
+![Alt text](images/Correlation_Matrix.png)
 
 
 #5. MODELING
