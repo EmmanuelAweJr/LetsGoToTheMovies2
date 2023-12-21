@@ -33,7 +33,7 @@ The project will focus on comparing and contrasting specific attributes from a s
 <!DOCTYPE html>  
 <html>  
  <body>  
-      <h3>Hypothesis (TBD)</h3> 
+      <h3>Hypothesis: There is a significant linear relationship between the "Metascore" and the other numerical columns. </h3> 
  <body>  
 </html>
 
@@ -48,7 +48,7 @@ Research Goals
 > Goal 1: Comparative Analysis:  To include specific attributes or details provided that can be used in creating the comparative analysis that is necessary.
 >
 > Attributes
-> The Attributes for analysis are: Movie Rank, Genre, Year, Runtime, Rating, Votes, Revenue and Metascore
+> The Attributes for analysis are: Rank, Year, Runtime, Rating, Votes, Revenue and Metascore
 > 
 > Goal 2: Conduct linear regression analysis on an attribute of choice: Metascore
 
@@ -83,23 +83,28 @@ Provide the Linear Regression Model Data visualization and written analysis:
 
 ![Alt text](images/Model.png)
 
-This linear regression model tests against the Metascore attribute alongside the rest of the numerical columns within this dataset. From the visualized model, it can be seen that there is satisfactory amount of correlation with the actual and predicted values. To further gauge if this was an appropriate regression model, residual analysis was also conducted. 
+This linear regression model tests against the Metascore attribute alongside the rest of the numerical columns within this dataset. From the visualized model, it can be seen that there is satisfactory amount of correlation with the actual and predicted values. 
+
+To further gauge if this was an appropriate regression model, residual analysis was also conducted. 
 
 ### Residual Analysis:
 
 ![Alt text](images/Residuals_Plot.png)
 
-In a linear regression model, characteristics such as 
+In a linear regression model, characteristics such as residuals, should ideally be randomly scattered around zero. According to this residual plot, most of the points are in fact congregated at around zero. Additionally, normality of residuals should also be showcased which can be seen in the histogram below:
 
-#7. FURTHER RESEARCH
+![Alt text](images/Normality_of_Residuals.png)
 
-TBD
+Based off of these aspects, it can be said that there is a linear relationship between the attribute Metascore against the rest of the numerical attributes within this dataset. The linear relationship may not be strong as the 
+the R^2 value was reported to be 0.451817118142814. The R^2 value refers to the coefficient of determination and showcases the proportion of the total variation explained by the model. 
 
-(Provide written analysis)
+## 7. FURTHER RESEARCH
+
+It is understood that Metascore refers to the scoring of movies on IMBD from "professional critics" and it is now understood that the attribute has a linear relationship with the most popular movies on the site from 2006-2016 on attributes such as Runtime, Rating, Votes, and Revenue. However further research in the form of feature engineering may be conducted to understand which specific numerical attribute have the most significant impact on predicting the "Metascore." 
 
 ## 8. CREDITS
 
-Thank you to the kaggle dataset used for this project:  https://www.kaggle.com/datasets/PromptCloudHQ/imdb-data?select=IMDB-Movie-Data.csv
+Thank you to the kaggle dataset used for this project:  https://www.kaggle.com/datasets/PromptCloudHQ/imdb-data?select=IMDB-Movie-Data.csv. Thank you to the developers of the sci-kit learn pacakage. 
 
 
 
