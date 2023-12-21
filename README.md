@@ -72,6 +72,7 @@ The purpose of this is to present the data in the most unencumbered manner psoss
 From the EDA some key findings showcased were:
 
 ## Correlation Matrix:
+
 ![Alt text](/Users/nasehacho/Desktop/TKH_DS/LetsGoToTheMovies2/images/Correlation Matrix.png)
 
 
