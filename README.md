@@ -53,31 +53,31 @@ Research Goals
 > Goal 2: Conduct linear regression analysis on an attribute of choice: Metascore
 
 
-#1. DATA
+## 1. DATA
 
 The data is being furnished by an authored contributor and researcher,Promptcloud from Kaggle. This dataset represents a 10-year history of movies between the years 2006-2016.
 The location being accessed is: https://www.kaggle.com/datasets/PromptCloudHQ/imdb-data?select=IMDB-Movie-Data.csv
 
-#2. METHOD
+## 2. METHOD
 
 The primary objective is the begin with clean data. Then place that data into a predictive model. 
 1. Linear Regression Model
 
-#3. CLEANING REPORT
+## 3. CLEANING REPORT
 
 The purpose of this is to present the data in the most unencumbered manner psossible. The data has been cleared of duplicate rows, and columns, NAN, Non-NaN, and Blanks. However, from the EDA it was deemed that the dataset used did not require much cleaning for analysis. 
 
-#4. EDA
+## 4. EDA
 
 From the EDA some key findings showcased were:
 
-## Correlation Matrix:
+### Correlation Matrix:
 
 ![Alt text](images/Correlation_Matrix.png)
 
 From the matrix, it could be seen that the attributes that seemed to have high correlation with other attributes were: Rating, Votes, Revenue, and Metascore. These attributes are numerical columns and can be used for possible linear regression analysis. 
 
-#5. MODELING
+## 5. MODELING
 
 Provide the Linear Regression Model Data visualization and written analysis:
 
@@ -85,7 +85,7 @@ Provide the Linear Regression Model Data visualization and written analysis:
 
 This linear regression model tests against the Metascore attribute alongside the rest of the numerical columns within this dataset. From the visualized model, it can be seen that there is satisfactory amount of correlation with the actual and predicted values. To further gauge if this was an appropriate regression model, residual analysis was also conducted. 
 
-Residual Analysis:
+### Residual Analysis:
 
 ![Alt text](images/Residuals_Plot.png)
 
@@ -97,7 +97,7 @@ TBD
 
 (Provide written analysis)
 
-#8. CREDITS
+## 8. CREDITS
 
 Thank you to the kaggle dataset used for this project:  https://www.kaggle.com/datasets/PromptCloudHQ/imdb-data?select=IMDB-Movie-Data.csv
 
